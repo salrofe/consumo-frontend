@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276878615512",
+    "project_id": "sistema-control-consum-aigua",
+    "storage_bucket": "sistema-control-consum-aigua.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276878615512:android:d51d80777f412c422fc8ad",
+        "android_client_info": {
+          "package_name": "com.example.frontend_agua"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG9b1Sk5v5dWwNJeQGcwGrILuyWtiremY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
