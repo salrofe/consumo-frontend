@@ -302,6 +302,14 @@ class _PantallaAfegirRegistreState extends State<PantallaAfegirRegistre> {
           });
         }
         if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content:
+                  Text('Registre afegit, modificat o eliminat correctament.'),
+              backgroundColor: Colors.green,
+              duration: Duration(seconds: 3),
+            ),
+          );
           Navigator.pop(
               context, true); // Tornar a pantalla anterior amb resultat OK
         }

@@ -201,19 +201,7 @@ class _PantallaRegistresState extends State<PantallaRegistres> {
                                   ),
                                 );
 
-                                if (resultat == true) {
-                                  final messenger = ScaffoldMessenger.of(
-                                      context); // guardem el context abans del await
-                                  await _updateRegistres();
-                                  messenger.showSnackBar(
-                                    const SnackBar(
-                                      content: Text(
-                                          'Registre afegit, modificat o eliminat correctament.'),
-                                      backgroundColor: Colors.green,
-                                      duration: Duration(seconds: 3),
-                                    ),
-                                  );
-                                }
+                                if (resultat == true) {}
                               },
                             ),
                           );
