@@ -1,4 +1,4 @@
-# tasca_comarques
+# Sistema de Supervisió de Consum d'Aigua amb Alertes Programades
 
 A new Flutter project.
 
